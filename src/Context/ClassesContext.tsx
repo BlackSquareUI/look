@@ -7,7 +7,7 @@ import {
     FC,
 } from "react";
 // import { GeneralClassType } from "../types/GeneralClassType";
-import { settings, props as _classes } from "../../lib/BlackSquareUI.json"
+import { settings, props as _classes } from "../../BlackSquareUI.json"
 import { GeneralClassType } from "../../lib/types/GeneralClassType";
 
 interface ClassesContextProps {

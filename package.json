@@ -1,6 +1,6 @@
 {
   "name": "@blacksquareui/themebuilder",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/blacksquareui.themebuilder.js",
   "types": "dist/lib/main.d.ts",
   "files": [
@@ -15,7 +15,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@blacksquareui/vitebuilder": "^1.0.4",
+    "@blacksquareui/vitebuilder": "^1.0.5",
     "@uiw/react-color-colorful": "^2.3.3"
   },
   "peerDependencies": {

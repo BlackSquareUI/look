@@ -1,5 +1,10 @@
 {
   "cssFileName": "output",
+  "content": {
+    "sourceDir": "lib",
+    "fileExtension": "tsx",
+    "outputFile": "index.css"
+  },
   "settings": {
     "unit": "rem"
   },
