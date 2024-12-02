@@ -1,7 +1,7 @@
 {
   "name": "@blacksquareui/themebuilder",
-  "version": "1.0.5",
-  "main": "dist/blacksquareui.themebuilder.js",
+  "version": "1.0.6",
+  "main": "dist/themebuilder.js",
   "types": "dist/lib/main.d.ts",
   "files": [
     "dist"
