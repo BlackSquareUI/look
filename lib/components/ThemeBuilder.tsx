@@ -9,8 +9,10 @@ const ThemeBuilder = () => {
     return (<>
         <PopoverProvider>
             <ClassesProvider>
-                <Popover />
-                <TogglePopupButton />
+                <div className="ee-font-family_monospace">
+                    <Popover />
+                    <TogglePopupButton />
+                </div>
             </ClassesProvider>
         </PopoverProvider>
     </>)

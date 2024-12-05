@@ -5,7 +5,7 @@ import Range from "./Range"
 const Props = () => {
     const { classes } = useClassesContext()
     return (
-        <div className="oo-padding">
+        <div className="">
             {classes.map((prop, j) => {
                 if (prop.type === "range") {
                     return <Range key={j} {...prop} />
