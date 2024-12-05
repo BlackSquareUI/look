@@ -1,8 +1,14 @@
 {
   "name": "@blacksquareui/themebuilder",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "dist/themebuilder.js",
-  "license": "ISC",
+  "license": "MIT",
+  "author": "dyooreen <dyooreen@icloud.com> (https://dyooreen.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlackSquareUI/themeBuilder"
+  },
+  "description": "This is a package for building theme",
   "types": "dist/lib/main.d.ts",
   "files": [
     "dist"
