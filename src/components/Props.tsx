@@ -1,4 +1,4 @@
-import { useClassesContext } from "../../src/Context/ClassesContext"
+import { useClassesContext } from "../Context/ClassesContext"
 import Color from "./Color"
 import Range from "./Range"
 

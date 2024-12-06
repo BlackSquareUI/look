@@ -1,5 +1,5 @@
-import { useClassesContext } from "../../src/Context/ClassesContext";
-import { usePopoverContext } from "../../src/Context/PopoverContext";
+import { useClassesContext } from "../Context/ClassesContext";
+import { usePopoverContext } from "../Context/PopoverContext";
 
 function SaveButton() {
     const { saveClasses } = useClassesContext()

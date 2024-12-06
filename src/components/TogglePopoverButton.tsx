@@ -1,4 +1,4 @@
-import { usePopoverContext } from "../../src/Context/PopoverContext"
+import { usePopoverContext } from "../Context/PopoverContext"
 
 const TogglePopoverButton = () => {
     const { togglePopover } = usePopoverContext()

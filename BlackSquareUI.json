@@ -1,8 +1,8 @@
 {
   "content": {
-    "sourceDir": "lib",
+    "sourceDir": "src",
     "fileExtension": "tsx",
-    "outputFile": "/../src/assets/css/index.css"
+    "outputFile": "./assets/css/index.css"
   },
   "settings": {
     "unit": "rem"

@@ -1,12 +1,12 @@
-import { ClassesProvider } from "../../src/Context/ClassesContext"
-import { PopoverProvider } from "../../src/Context/PopoverContext"
+import { ClassesProvider } from "../Context/ClassesContext"
+import { PopoverProvider } from "../Context/PopoverContext"
 import Popover from "./Popover"
 import TogglePopupButton from "./TogglePopoverButton"
-import "../../src/assets/css/index.css"
 
 const ThemeBuilder = () => {
 
     return (<>
+    <p>sdcsdc</p>
         <PopoverProvider>
             <ClassesProvider>
                 <div className="ee-font-family_monospace">

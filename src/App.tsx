@@ -1,4 +1,4 @@
-import ThemeBuilder from "../lib/components/ThemeBuilder"
+import ThemeBuilder from "./components/ThemeBuilder"
 
 function App() {
     return (

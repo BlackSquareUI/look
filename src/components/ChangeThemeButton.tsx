@@ -1,5 +1,5 @@
 import { useRef, ChangeEvent } from "react";
-import { useClassesContext } from "../../src/Context/ClassesContext";
+import { useClassesContext } from "../Context/ClassesContext";
 import { GeneralClassType } from "../types/GeneralClassType";
 
 function ChangeThemeButton() {

@@ -1,4 +1,4 @@
-import { useClassesContext } from "../../src/Context/ClassesContext"
+import { useClassesContext } from "../Context/ClassesContext"
 import { GeneralClassType } from "../types/GeneralClassType"
 import PropDisplayName from "./PropDisplayName"
 

@@ -1,9 +1,9 @@
-import { useClassesContext } from "../../src/Context/ClassesContext"
+import { useClassesContext } from "../Context/ClassesContext"
 import { useState } from "react"
 import { GeneralClassType } from "../types/GeneralClassType"
 import Picker from '@uiw/react-color-colorful'
 import PropDisplayName from "./PropDisplayName"
-import OutsideAlerter from "../../src/Hooks/OutsideAlerter"
+import OutsideAlerter from "../Hooks/OutsideAlerter"
 const Color = ({ name, val
 }: GeneralClassType) => {
     const { updateClasses } = useClassesContext()
