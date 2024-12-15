@@ -6,7 +6,6 @@ import TogglePopupButton from "./TogglePopoverButton"
 const ThemeBuilder = () => {
 
     return (<>
-    <p>sdcsdc</p>
         <PopoverProvider>
             <ClassesProvider>
                 <div className="ee-font-family_monospace">

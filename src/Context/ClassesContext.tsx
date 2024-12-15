@@ -8,7 +8,7 @@ import {
 } from "react";
 // import { GeneralClassType } from "../types/GeneralClassType";
 import { settings, props as _classes } from "../../BlackSquareUI.json"
-import { GeneralClassType } from "../../lib/types/GeneralClassType";
+import { GeneralClassType } from "../types/GeneralClassType";
 
 interface ClassesContextProps {
     classes: GeneralClassType[];

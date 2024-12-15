@@ -6,7 +6,7 @@ function SaveButton() {
     const { togglePopover } = usePopoverContext()
     return (
         <button
-            className="oo-padding ee-cursor_pointer  oo-border-width oo-background-color-success oo-text-color-success  oo-border-color ee-border-style_solid oo-border-radius"
+            className="oe-hover-success oo-padding ee-cursor_pointer  oo-border-width oo-background-color-success oo-text-color-success  oo-border-color ee-border-style_solid oo-border-radius"
             onClick={() => {
                 saveClasses();
                 togglePopover();
