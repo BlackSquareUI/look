@@ -1,10 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import { blackSquareUI } from '@blacksquareui/vitebuilder'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), blackSquareUI()],
+  plugins: [react()],
   build: {
     outDir: 'dist',
     emptyOutDir: true,
@@ -13,8 +12,8 @@ export default defineConfig({
         main: 'src/main.tsx'
       },
       output: {
-        entryFileNames: 'blackSquareUI.js',
-        assetFileNames: 'blackSquareUI.css'
+        entryFileNames: 'look.js',
+        assetFileNames: 'look.css'
       }
     }
   }
