@@ -1,12 +1,12 @@
 {
-  "name": "@blacksquareui/themebuilder",
-  "version": "1.1.0",
+  "name": "@blacksquareui/look",
+  "version": "0.0.1",
   "main": "dist/blackSquareUI.js",
   "license": "MIT",
   "author": "dyooreen <dyooreen@icloud.com> (https://dyooreen.com)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BlackSquareUI/themeBuilder"
+    "url": "git+https://github.com/BlackSquareUI/look"
   },
   "description": "This is a package for building theme",
   "types": "dist/lib/main.d.ts",
@@ -15,18 +15,17 @@
   ],
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "npx blacksquare && vite",
     "build": "vite build",
     "build-watch": "vite build --watch",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@blacksquareui/vitebuilder": "^1.0.5",
+    "@blacksquareui/compiler": "^0.0.2",
     "@uiw/react-color-colorful": "^2.3.3"
   },
   "peerDependencies": {
-    "@uiw/react-color-chrome": "^2.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

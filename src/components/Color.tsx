@@ -1,4 +1,4 @@
-import { useClassesContext } from "../Context/ClassesContext"
+import { useClassesContext } from "../context/ClassesContext"
 import { useState } from "react"
 import { GeneralClassType } from "../types/GeneralClassType"
 import Picker from '@uiw/react-color-colorful'

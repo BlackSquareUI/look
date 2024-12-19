@@ -1,7 +1,8 @@
-import { ClassesProvider } from "../Context/ClassesContext"
-import { PopoverProvider } from "../Context/PopoverContext"
+import { ClassesProvider } from "../context/ClassesContext"
+import { PopoverProvider } from "../context/PopoverContext"
 import Popover from "./Popover"
 import TogglePopupButton from "./TogglePopoverButton"
+
 
 const ThemeBuilder = () => {
 
